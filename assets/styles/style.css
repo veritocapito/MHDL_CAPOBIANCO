@@ -31,7 +31,7 @@ h1{
 
 h2{
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border: 1px solid black;
 
 }
@@ -71,7 +71,7 @@ main{
     min-height: 50vh;
 }
 
-section{
+div.about{
     position: relative;
 }
 
@@ -108,6 +108,7 @@ article{
     left: 25rem;
     padding-top: 0;
     max-width: 65%;
+    font-size: 0.94em;
 }
 
 p{
