@@ -81,7 +81,6 @@ h3{
 
 .articles{
     display: inline-block;
-    padding-top: 2.5rem;
     position: absolute;
     left: 25rem;
 }
@@ -100,10 +99,23 @@ div img{
 }
 
 article{
-    padding: 1em;
+    padding-top: 2rem;
+}
+
+.about{
+    display: inline-block;
+    position: absolute;
+    left: 25rem;
+    padding-top: 0;
+    max-width: 65%;
 }
 
 p{
+    margin-left: 1.5rem;
+}
+
+.parrafo{
+    padding-top: 2em;
     margin-left: 1em;
 }
 
