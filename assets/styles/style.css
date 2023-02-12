@@ -1,73 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mulish&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Handlee', cursive;
 }
 
 body{
-    max-height: 100vh;
+    height: 90vh;
 }
 
 header{
     min-height: 25vh;
-    padding: 2em 2em 0 2em;
-    background-color: antiquewhite;
+    padding: 0.8em 3em 0 3em;
 }
 
 nav{
     min-height: 25vh;
-    background-image: url(../images/hockey\ 3.jpg);
-    background-position: 0 20%;
+    background-image: url(../images/design1_image1.jpg);
+    background-position: 0 40%;
 }
 
 h1{
     font-style: italic;
-    font-size: large;
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    font-weight: 400;
 }
+
 h2{
     text-align: center;
     padding: 0.5rem;
     border: 1px solid black;
+
+}
+
+nav>div{
+    position: relative;
+    top: -3vh ;
+    text-align: end;  
+    margin-right: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+    margin: 0.2em;
+    padding: 0.3em;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(63, 63, 255);
+}
+
+nav a:hover{
+    background-color: rgb(79, 79, 232);
+}
+
+nav #active{
+    background-color: rgb(40, 181, 111);
+}
+
+nav #active:hover{
+    background-color: rgb(100, 182, 141);
 }
 
 main{
-    min-height: 70vh;
+    min-height: 50vh;
 }
 
 section{
     position: relative;
 }
 
+h3{
+    font-style: italic;
+}
+
 .articles{
     display: inline-block;
-    max-width: 80vw;
-    padding: 1.5rem;
+    padding-top: 2.5rem;
     position: absolute;
-    left: 25vw;
+    left: 25rem;
 }
 
 .images{
     display: inline-block;
-    min-width: 20vw;
-    max-width: 20vw;
-    padding: 1rem;
+    max-width: 300px;
     position: absolute;
-    left: 5vw;
+    left: 5rem;
 }
 
 div img{
     max-width: 200px;
+    margin-bottom: 1em;
+    padding-left: 1em;
 }
 
 article{
-    padding: 1.5em;
+    padding: 1em;
 }
 
 p{
-    margin: 1em;
+    margin-left: 1em;
 }
 
 footer{
-    min-height: 10vh;
-    background-color: rgb(171, 206, 207);
+    min-height: 5vh;
 }
