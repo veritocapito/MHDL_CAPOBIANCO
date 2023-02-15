@@ -88,31 +88,65 @@ h3{
     text-align: center;
 }
 
-.articles{
-    margin: 5rem;
+.home{
     display: flex;
+    flex-direction: column;
+    height: 60vh;
 }
 
-.images{
+.articles{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.image{
     max-width: 300px;
     border-radius: 10px;
+    margin-top: 2rem;
 }
 
-div img{
-    max-width: 300px;
-    margin-bottom: 1em;
-    padding-left: 1em;
+.main-contact{
+    min-height: 90vh;
 }
 
-article, .contact{
+.contact{
     padding-top: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img-contact{
+    display: flex;
+    gap: 1rem;
+}
+
+.parrafo{
+    text-align: center;
 }
 
 .about{
     display: flex;
     padding-top: 0;
-    max-width: 65%;
     font-size: 0.94em;
+    max-width: 40vw;
+    flex-direction: column;
+}
+
+.img-about{
+    max-width: 40%;
+    align-self: center;
+    border-radius: 10px;
+
+}
+
+article {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
 
 .rules{
@@ -129,6 +163,7 @@ ol, ul, dl {
     max-width: 50vw;
     line-height: 1.5;
 }
+
 ol li{
     list-style-position: inside;
     margin-bottom: 1rem;
@@ -178,11 +213,6 @@ table, caption{
 th, td{
     padding: 1rem;
     text-align: center;
-}
-
-.parrafo{
-    padding-top: 2em;
-    margin-left: 1em;
 }
 
 .parrafo2{
