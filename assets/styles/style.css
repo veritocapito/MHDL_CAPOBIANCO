@@ -220,6 +220,10 @@ th, td{
     justify-content: space-between;
 }
 
+form{
+    max-width: 50vw;
+}
+
 footer{
     min-height: 5vh;
     display: flex;
