@@ -23,6 +23,6 @@ Frontend Learning Path => Introduction to Web Development [FE11-TM].
 
 ## Acknowledgments :raised_hands:
 
-* To menthors Cynthia and Dammian
+* Mentors Cynthia and Damian
 * MindHub for the oportunity
 * My family for always being there
